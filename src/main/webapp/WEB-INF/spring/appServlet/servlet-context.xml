@@ -25,18 +25,18 @@
 	
 	<!-- 새로운 pojo를 스프링 bean으로 등록하기 -->
 	<!-- @autouwird사용하지않고 이렇게 등록 property나오면 setter 네임 찾으면된다 -->
-	<beans:bean id="test1" class="com.test.jueun.BeanTest">
+<!-- 	<beans:bean id="test1" class="com.test.jueun.BeanTest">
 		<beans:property name="name" value="김주은test1"></beans:property>
 	</beans:bean>
 	<beans:bean id="test2" class="com.test.jueun.BeanTest">
 		<beans:property name="name" value="김주은test2"></beans:property>
 	</beans:bean>
 	
-	<!-- 생성자를 이용해서  bean을 생성하게 하는 방법 -->
+	생성자를 이용해서  bean을 생성하게 하는 방법
 	<beans:bean id="test3" class="com.test.jueun.BeanTest">
 		<beans:constructor-arg name="name" value="생성자를 이용한 test3"></beans:constructor-arg>
 	</beans:bean>
-	<!-- index="0" 을 사용해도 되고 name="name"해도 된다 -->
+	index="0" 을 사용해도 되고 name="name"해도 된다 -->
 	
 	
 	

@@ -49,6 +49,9 @@ bootstrap4 > get start > CDN 방식으로 가져오기 (Content Delivery Network
 							<a class="nav-link" href="${path }">Home</a>
 						</li>
 						<!-- 추가메뉴 구성하기 -->
+						<li class="nav-item active">
+							<a class="nav-link" href="${path }/demo/demoHome.do">demo</a>
+						</li>
 						
 					</ul>
 				
